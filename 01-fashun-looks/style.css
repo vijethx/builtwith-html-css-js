@@ -12,6 +12,7 @@ body {
 }
 
 main {
+  /* position: relative; */
   height: 100%;
   width: 100%;
   background-color: #ededed;
@@ -95,4 +96,33 @@ main {
   /* background-color: palegreen; */
   grid-column: 3;
   grid-row: 1/4;
+  padding: 40px;
+  padding-right: 70px;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 3px;
+}
+
+#arrow {
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: orangered;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+#arrow i {
+  font-size: 40px;
+  font-weight: 100;
 }
